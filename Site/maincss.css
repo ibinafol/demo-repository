@@ -1,16 +1,18 @@
+/* Стили для всего сайта */
 body{
 	margin: 0 0 0 0;
-}
-
-
-.body{
 	background-image: url(img/bodyimg.jpg);
-	height: 85vh;
+	height: 100vh;
+	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size:  cover;
-	font-family:'Open Sans', sans-serif;
-}
+	color: black;
+	 font-family: "Vollkorn SC", serif;
 
+}
+/* Стили для первой странички */
+
+/* Стили для шапки */
 .imglogo{
 	margin-left: 15px;
 	margin-top: 15px;
@@ -20,17 +22,21 @@ body{
 .up{
 	display: flex;
 	width: max;
+	text-transform: uppercase;
+	 font-family: "Vollkorn SC", serif;
+	 font-size: 20px;
 	vertical-align: center;
+	font-weight: 700;
 	justify-cntent: space-between;
 	
 }
 
 .nav{
 	display: flex;
-	margin-left: 15px;
-	width: 800px;
+	margin-left: 400px;
+	width: 900px;
 	justify-content: space-between;
-	margin-top: 28px;
+	margin-top: 34px;
 }
 
 
@@ -46,8 +52,8 @@ body{
   text-decoration: none;
    padding: 7px 30px;
  
-   transition: background-color 0.5s linear;
-   transition: color 0.1s linear;
+   transition: background-color 0.05s linear;
+   transition: color 0.05s linear;
 }
 
 
@@ -55,4 +61,55 @@ body{
  color: white;
  background-color: black;
 
+}
+.help{
+	display: flex;
+	margin-top: 41px;
+}
+.number{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: black;
+
+}
+
+.number_up{
+	display: flex;
+	padding-right: 5px;
+	height: 27px;
+	border-right: 2px black solid;
+}
+.numimg{
+	margin-top: 2px;
+
+}
+
+.help_text{
+	margin-left: 5px;
+}
+
+
+/* Стили для текста в центре */
+
+.text{
+	width: 800px;
+		height: 500px;
+	background-color: rgba(255,255,255, 0.6);
+	margin-top: 85px;
+	margin-left: 150px;
+}
+
+.text_top{
+	font-size: 80px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	margin-bottom: 	30px;
+}
+
+.opacity{
+	opacity: 1;
+}
+.text_bottom{
+	font-size: 25px;
+	padding-left: 20px;
 }
