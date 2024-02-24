@@ -1,0 +1,173 @@
+/* Стили для всего сайта */
+body{
+	margin: 0 0 0 0;
+	
+	color: black;
+	 font-family: "Vollkorn SC", serif;
+
+}
+/* Стили для первой странички */
+.body{
+	background-image: url(img/bodyimg.jpg);
+	height: 100vh;
+	background-attachnt: fixed;
+	background-repeat: no-repeat;
+	background-size:  cover;
+}
+/* Стили для шапки */
+.imglogo{
+	margin-left: 15px;
+	margin-top: 15px;
+	margin-right: 25px;
+	display: inline-block;
+}
+.up{
+	display: flex;
+	width: max;
+	text-transform: uppercase;
+	 font-family: "Vollkorn SC", serif;
+	 font-size: 20px;
+	vertical-align: center;
+	font-weight: 700;
+	justify-cntent: space-between;
+	
+}
+
+.nav{
+	display: flex;
+	margin-left: 400px;
+	width: 900px;
+	justify-content: space-between;
+	margin-top: 34px;
+}
+
+
+.nav_inner{
+     font-family: "Vollkorn SC", serif;
+  font-weight: 700;
+  font-style: normal;
+  text-transform: uppercase;
+  display: inline-block;
+  font-size: 20px;
+  margin-right: 15px;
+  color: black;
+  text-decoration: none;
+   padding: 7px 30px;
+ 
+   transition: background-color 0.05s linear;
+   transition: color 0.05s linear;
+}
+
+
+.nav_inner:hover{
+ color: white;
+ background-color: black;
+
+}
+.help{
+	display: flex;
+	margin-top: 41px;
+}
+.number{
+ text-decoration: none;
+ text-transform: uppercase;
+ color: black;
+
+}
+
+.number_up{
+	display: flex;
+	padding-right: 5px;
+	height: 27px;
+	border-right: 2px black solid;
+}
+.numimg{
+	margin-top: 2px;
+
+}
+
+.help_text{
+	margin-left: 5px;
+}
+
+
+/* Стили для текста в центре */
+
+.text{
+	width: 800px;
+		height: 500px;
+	background-color: rgba(255,255,255, 0.6);
+	margin-top: 85px;
+	margin-left: 150px;
+}
+
+.text_top{
+	font-size: 80px;
+	text-transform: uppercase;
+	padding-left: 20px;
+	margin-bottom: 	30px;
+}
+
+.opacity{
+	opacity: 1;
+}
+.text_bottom{
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+
+
+.card_top{
+	display: inline-flex;
+	text-align: center;
+	margin-left: 250px;
+}
+.card{
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	height:349px ;
+	width: 428px;
+	text-align: center;
+	margin-right: 31px;
+	margin-top: -107px;
+	background-color: #fff;
+}
+
+.card_img{
+margin-top: 48px;
+margin-bottom: 4px;
+}
+.title{
+	font-weight: 400;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+.fvt{
+	
+}
+
+
+.container{
+display: flex;
+width: 1346px;
+height: 550px;
+margin-left: 250px;
+margin-top: 100px;
+box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.img_fvt{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+.fvt_text{
+	margin-top: 20px;
+}
