@@ -1,17 +1,19 @@
 /* Стили для всего сайта */
 body{
 	margin: 0 0 0 0;
+	
+	color: black;
+	font-family: "Vollkorn SC", serif;
+
+}
+/* Стили для первой странички */
+.body{
 	background-image: url(img/bodyimg.jpg);
 	height: 100vh;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 	background-size:  cover;
-	color: black;
-	 font-family: "Vollkorn SC", serif;
-
 }
-/* Стили для первой странички */
-
 /* Стили для шапки */
 .imglogo{
 	margin-left: 15px;
@@ -27,7 +29,7 @@ body{
 	 font-size: 20px;
 	vertical-align: center;
 	font-weight: 700;
-	justify-cntent: space-between;
+
 	
 }
 
@@ -41,7 +43,7 @@ body{
 
 
 .nav_inner{
-     font-family: "Vollkorn SC", serif;
+  font-family: "Vollkorn SC", serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -60,8 +62,13 @@ body{
 .nav_inner:hover{
  color: white;
  background-color: black;
-
 }
+
+#activ{
+	color: white;
+	background-color: black;
+}
+
 .help{
 	display: flex;
 	margin-top: 41px;
@@ -96,7 +103,7 @@ body{
 		height: 500px;
 	background-color: rgba(255,255,255, 0.6);
 	margin-top: 85px;
-	margin-left: 150px;
+	margin-left: 250px;
 }
 
 .text_top{
@@ -112,4 +119,58 @@ body{
 .text_bottom{
 	font-size: 25px;
 	padding-left: 20px;
+}
+
+
+
+.card_top{
+	display: flex;
+	text-align: center;
+	margin-left: 250px;
+}
+.card{
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	height:349px ;
+	width: 428px;
+	text-align: center;
+	margin-right: 31px;
+	transform-style: preserve-3d;
+	margin-top: -107px;
+	background-color: #fff;
+	
+}
+.card_img{
+margin-top: 48px;
+margin-bottom: 4px;
+}
+.title{
+	font-weight: 400;
+	font-size: 26px;
+	margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+.container{
+display: flex;
+width: 1346px;
+height: 550px;
+margin-left: 250px;
+margin-top: 100px;
+box-shadow: 10px 10px 40px 20px #0000001A;
+}
+
+.img_fvt{
+	margin-left: 20px;
+	margin-top: 20px;
+	margin-right: 25px;
+}
+
+.fvt_text{
+	margin-top: 20px;
+	margin-right:10px;
 }
