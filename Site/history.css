@@ -1,0 +1,35 @@
+.cont{
+    background-color: black;
+    color: white;
+    width: 1500px;
+    display: flex;
+    margin-left: 200px;
+    margin-top: 50px;
+}
+
+.headd{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.underr{
+    font-size: 18px;
+    margin-left: 15px;
+    margin-right: 10px;
+    margin-top: 13px ;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 50px;
+}
+
+
+.imgg{
+    margin-left: 15px;
+}
+
+
+.imga{
+    display: flex;
+    margin-top: 15px;
+    
+}
