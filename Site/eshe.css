@@ -1,0 +1,33 @@
+.card_top1{
+	display:   flex;
+	text-align: center;
+	margin-left: 12%;
+    margin-top: 80px;
+
+}
+.card1{
+	box-shadow: 10px 10px 40px 20px #0000001A;
+	height:349px ;
+    border-radius: 50px;
+	width: 37vh;
+	height: 35vh;
+	text-align: center;
+	margin-right: 31px;
+	background-color: #fff;
+	
+}
+.card_img1{
+margin-top: 10%;
+margin-bottom: 1%;
+}
+.title1{
+	font-weight: 400;
+	font-size: 200%;
+	margin-bottom: 5%;
+}
+
+
+.esh{
+    text-decoration: none;
+    color: #000;
+}

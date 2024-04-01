@@ -29,13 +29,14 @@ body{
 	 font-size: 20px;
 	vertical-align: center;
 	font-weight: 700;
+	justify-content: space-between;
 
 	
 }
 
 .nav{
 	display: flex;
-	margin-left: 400px;
+	
 	width: 900px;
 	justify-content: space-between;
 	margin-top: 34px;
@@ -103,7 +104,7 @@ body{
 		height: 500px;
 	background-color: rgba(255,255,255, 0.6);
 	margin-top: 85px;
-	margin-left: 250px;
+	margin-left: 13.4%;
 }
 
 .text_top{
@@ -126,7 +127,7 @@ body{
 .card_top{
 	display: flex;
 	text-align: center;
-	margin-left: 250px;
+	margin-left: 13.4%;
 }
 .card{
 	box-shadow: 10px 10px 40px 20px #0000001A;
@@ -135,7 +136,7 @@ body{
 	text-align: center;
 	margin-right: 31px;
 	transform-style: preserve-3d;
-	margin-top: -107px;
+	margin-top: -10%;
 	background-color: #fff;
 	
 }
@@ -165,7 +166,8 @@ margin-bottom: 4px;
   text-decoration: none;
    padding: 7px 30px;
     margin-top: 15px;
-    margin-left: 600px;
+    margin-left: 0%;
+	position:absolute;
     border: 2px #000 solid;
    transition: background-color 1s linear;
    transition: color 0.07s linear;
@@ -186,7 +188,7 @@ margin-bottom: 4px;
 display: flex;
 width: 1346px;
 height: 550px;
-margin-left: 250px;
+margin-left: 13.4%;
 margin-top: 100px;
 box-shadow: 10px 10px 40px 20px #0000001A;
 }
